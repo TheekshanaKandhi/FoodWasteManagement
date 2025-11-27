@@ -4,9 +4,6 @@
 
 The Food Donation Platform is a web application that facilitates the donation and distribution of food to those in need. It connects donors with food banks and shelters, allowing them to list, request, and manage food donations efficiently.
 
-## Live Link
-
-https://feedaid.netlify.app
 
 ## Features
 
