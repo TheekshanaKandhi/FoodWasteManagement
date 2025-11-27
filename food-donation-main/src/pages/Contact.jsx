@@ -13,16 +13,16 @@ const ContactPage = () => {
         </p>
         <ul className="list-disc list-inside">
           <li>
-            <strong>Address:</strong> 94 Kanke Block - Ranchi, JH 834006
+            <strong>Address:</strong> KLU-Vijayawada
           </li>
           <li>
-            <strong>Phone:</strong> (+91) 8462 32 8978
+            <strong>Phone:</strong> 9392897028
           </li>
           <li>
-            <strong>Email:</strong> contact@foodaid.org
+            <strong>Email:</strong> ramvarun26082006@gmail.com
           </li>
           <li>
-            <strong>Hours:</strong> 9:00 AM - 6:00 PM
+            <strong>Hours:</strong> 9:00 AM - 8:00 PM
           </li>
         </ul>
       </div>
