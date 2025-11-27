@@ -4,24 +4,27 @@ import { faGithub, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-i
 
 const developers = [
   {
-    name: 'Niraj Kumar Dangi',
-    photo: 'https://avatars.githubusercontent.com/u/102892441?v=4',
+    name: 'THOTA RAM VARUN',
+    photo: 'https://media.licdn.com/dms/image/v2/D5635AQFh9wFfyhqYUw/profile-framedphoto-shrink_400_400/B56ZobxYK2JoAc-/0/1761402520554?e=1764795600&v=beta&t=tmBblh2TzVMHcOZ04Aj35wszp5zATGee0Z6f5qiFLbI',
     role: 'JavaScript Developer',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam aliquid porro!',
-    github: 'https://github.com/nirajkumardangi',
-    instagram: 'https://instagram.com/itz_nirajkr',
-    email: 'niraj8825224435@gmail.com',
-    twitter: 'https://twitter.com/',
+    description: 'A sustainable food management system designed to track, collect, and distribute surplus food to reduce environmental impact.',
+    email: 'thotaramvarun26082006@gmail.com',
   },
   {
-    name: 'Raushan Kumar Saw',
-    photo: 'https://avatars.githubusercontent.com/u/124686068?v=4',
+    name: 'KANDHI THEEKSHANA',
+    photo: 'https://avatars.githubusercontent.com/u/163739692?s=400&v=4',
     role: 'React Developer',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam aliquid porro!',
-    github: 'https://github.com/Raushan102',
-    instagram: 'https://instagram.com/raush_an6671',
-    email: 'janesmith@example.com',
-    twitter: 'https://twitter.com/',
+    description: 'A sustainable food management system designed to track, collect, and distribute surplus food to reduce environmental impact.',
+    email: 'theekshanakandhi@gamil.com',
+  },
+
+  // ⭐ Added New Developer
+  {
+    name: 'M MYTHRI',
+    photo: 'https://avatars.githubusercontent.com/u/163739692?s=400&v=4',
+    role: 'Backend Developer',
+    description: 'A sustainable food management system designed to track, collect, and distribute surplus food to reduce environmental impact.',
+    email: 'mlakshmimythri@gamil.com',
   }
 ];
 
@@ -38,6 +41,7 @@ function Developers() {
               <h3 className="text-sm text-gray-100 mb-4">{developer.role}</h3>
               <p className="text-gray-100 text-center mb-4">{developer.description}</p>
               <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full mb-6">Hire Me</button>
+
               <div className="flex justify-center space-x-6 mb-4">
                 <a href={developer.github} target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-500 transition-colors duration-300 p-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500">
                   <FontAwesomeIcon icon={faGithub} size="lg" />
@@ -49,6 +53,7 @@ function Developers() {
                   <FontAwesomeIcon icon={faInstagram} size="lg" />
                 </a>
               </div>
+
               <p className="text-gray-100 text-center">{developer.email}</p>
             </div>
           </div>
